@@ -1,0 +1,161 @@
+/*
+ Theme Name:     Divi Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+
+/*-------------------------------------------------*/
+/*  HOLDING PAGE CSS  */
+/* CSS to make the Brand New Site text responsive */
+@media screen and (max-width: 1578px) {
+	.brandNewSiteDesktop{
+		padding-top: 15px;
+	}
+}
+
+@media screen and (max-width: 1370px) {
+	.brandNewSiteDesktop h1{
+		font-size: 35px !important;
+	}
+}
+
+@media screen and (max-width: 1223px) {
+	.brandNewSiteDesktop{
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+}
+
+/* CSS for Mailchimp notified when live form*/
+#btnNotifiedSubscribe{
+  color: #f2f2f2!important;
+border-color: #fbb03b;
+font-family: 'Abril Fatface',display!important;
+background-color: #1e1e1e;
+position: relative;
+padding: .3em 1em;
+border: 2px solid;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.7em!important;
+-webkit-transition: all .2s;
+-moz-transition: all .2s;
+transition: all .2s;
+}
+
+
+#emailNotifiedField{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#emailNotifiedField::placeholder
+
+/*-------------END OF HOLDING PAGE CSS------------ */
+/*-------------------------------------------------*/
+
+
+/*-----------------NAVIGATION CSS----------------- */
+/*-------------------------------------------------*/
+@media all and (min-width: 980px){
+
+  /*adjust position of navigation menu*/
+  .et_header_style_fullscreen .et_pb_fullscreen_nav_container {
+      width: 50%;
+  }
+
+  .et_slide_in_menu_container.et_pb_fullscreen_menu_opened.et_pb_fullscreen_menu_animated {
+      padding-top: 0px !important;
+  }
+
+  /*adjust position of top bar elements*/
+  .et_header_style_fullscreen .et_slide_menu_top {
+      width: 50%;
+      text-align: center;
+      display: table !important;
+      vertical-align: middle;
+      position: initial;
+      float: right!important;
+      height: 100%;
+  }
+  .et_header_style_fullscreen .et_pb_top_menu_inner {
+      display: table-cell !important;
+      position: relative;
+      vertical-align: middle;
+      text-align: left!important;
+      padding: 0 15%;
+      width: 100%;
+  }
+
+  .et_header_style_fullscreen .et_slide_menu_top ul.et-social-icons {
+      width: 100%;
+  }
+
+  .et_header_style_fullscreen div#et-info {
+      float: none!important;
+      width: 100%;
+  }
+
+  .et_header_style_fullscreen div#et-info span {
+      display: block;
+      margin-bottom: 30px;
+  }
+
+
+  /*make search bar and icon larger*/
+  .et_header_style_fullscreen .et_slide_menu_top .et-search-form {
+      margin-top: 30px !important;
+      margin-bottom: 15px;
+      width: 100% !important;
+      max-width: 300px !important;
+      padding: 25px !important;
+  }
+  .et_slide_menu_top button#searchsubmit_header{
+      width: 50px;
+      height: 41px;
+  }
+  .et_slide_menu_top button#searchsubmit_header:before {
+      font-size: 22px;
+  }
+
+  /*make close menu icon larger*/
+  .et_pb_fullscreen_menu_animated .mobile_menu_bar:before {
+      font-size: 120px;
+  }
+
+  /*take out background overlay*/
+  .et_slide_menu_top {
+  background: none;
+  }
+
+  /*take out background opacity*/
+  .et_header_style_fullscreen .et_slide_in_menu_container.et_pb_fullscreen_menu_opened {
+  opacity: 1;
+  }
+
+  /*increase size of down arrow for sub menu items*/
+  .et_slide_in_menu_container span.et_mobile_menu_arrow {
+  opacity: 1;
+
+  }
+  .et_slide_in_menu_container #mobile_menu_slide .et_mobile_menu_arrow:before {
+  font-size: 34px;
+  }
+
+}
+
+
+/*---------------NAVIGATION CSS END--------------- */
+/*-------------------------------------------------*/
